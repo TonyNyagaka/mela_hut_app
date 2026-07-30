@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Mela Hut App">
     <meta name="mobile-web-app-capable" content="yes">
-    <title><%= yield(:title) %> | Mela Hut App</title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
